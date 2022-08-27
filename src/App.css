@@ -1,0 +1,70 @@
+header{
+  padding: 2rem 1rem;
+  max-width: 800px;
+  width: 100%;
+  margin:0 auto;
+ }
+ 
+ /**Todo Header**/
+ 
+ .input-group input[type='text']{
+   color: rgb(7, 7, 7) !important;
+   border:none;
+   border-radius:0;
+   background-color:#ededed !important;
+ }
+ 
+ .input-group input:focus, .input-group input.form-control:focus {
+   background-color:#ededed !important;
+   outline-style: none;
+   box-shadow: none;
+   border-color: transparent;
+ 
+ }
+
+ .task-name{
+  width: 70%;
+}
+ .task-name input{
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid transparent;
+  background-color: #1e2b39;
+ }
+ .input-text{
+  color: #fff;
+ }
+.input-text:not(:read-only) {
+	color: #0fbcf9 !important;
+}
+ 
+ /**Todo Body**/
+ 
+ button{
+   border:0px;
+ }
+ .task-container{
+   background-color: #1e2b39;
+   box-shadow: 4px 4px 5px 2px #18232e;
+   padding:  22px 25px;
+ }
+ 
+ .task-container button{
+   background-color:transparent;
+ }
+
+
+ .edit-btn{
+   color: #6ab04c;
+ }
+ .delete-btn{
+   color: #eb4d4b;
+ }
+ .edit-btn:hover{
+   color: #9fed7d;
+ }
+ .delete-btn:hover{
+   color: #f57876;
+ }
+

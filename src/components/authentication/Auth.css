@@ -1,0 +1,57 @@
+.Auth {
+    background: url("https://www.pixelstalk.net/wp-content/uploads/images2/Black-Wallpaper-Images-Blue.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .rowContainer {
+    width: 700px;
+    height: 550px;
+  }
+  
+  .selectorSection {
+    background-color: #0f2133;
+  }
+  
+  .btnContainer {
+    margin: 190px 0;
+  }
+  
+  .nav-item .nav-link {
+    border-radius: 20px !important;
+    border: 2px solid white !important;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 180px;
+    height: 50px;
+    background-color: transparent !important;
+  }
+  
+  .nav-link {
+    color: white !important;
+  }
+  
+  .form-control {
+    background-color: transparent !important;
+    color: white !important;
+  }
+  
+  .nav-item .nav-link:hover,
+  .nav-item .nav-link:focus,
+  .nav-item .nav-link:active {
+    background-color: #071019 !important;
+    border: 2px solid #071019 !important;
+    color: white !important;
+  }
+  
+  .col-sm-8 {
+    padding: 0px !important;
+  }
